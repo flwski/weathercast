@@ -1,0 +1,105 @@
+{
+    "by": "default",
+    "valid_key": false,
+    "results": {
+    "temp": 16,
+    "date": "15/08/2021",
+    "time": "10:02",
+    "condition_code": "28",
+    "description": "Tempo nublado",
+    "currently": "dia",
+    "cid": "",
+    "city": "São Paulo, SP",
+    "img_id": "28",
+    "humidity": 88,
+    "wind_speedy": "1.79 km/h",
+    "sunrise": "06:32 am",
+    "sunset": "05:50 pm",
+    "condition_slug": "cloudly_day",
+    "city_name": "São Paulo",
+    "forecast": [
+    {
+    "date": "15/08",
+    "weekday": "Dom",
+    "max": 25,
+    "min": 14,
+    "description": "Tempo limpo",
+    "condition": "clear_day"
+    },
+    {
+    "date": "16/08",
+    "weekday": "Seg",
+    "max": 27,
+    "min": 15,
+    "description": "Parcialmente nublado",
+    "condition": "cloud"
+    },
+    {
+    "date": "17/08",
+    "weekday": "Ter",
+    "max": 30,
+    "min": 15,
+    "description": "Tempo limpo",
+    "condition": "clear_day"
+    },
+    {
+    "date": "18/08",
+    "weekday": "Qua",
+    "max": 31,
+    "min": 18,
+    "description": "Tempo limpo",
+    "condition": "clear_day"
+    },
+    {
+    "date": "19/08",
+    "weekday": "Qui",
+    "max": 32,
+    "min": 19,
+    "description": "Tempo limpo",
+    "condition": "clear_day"
+    },
+    {
+    "date": "20/08",
+    "weekday": "Sex",
+    "max": 31,
+    "min": 19,
+    "description": "Tempo limpo",
+    "condition": "clear_day"
+    },
+    {
+    "date": "21/08",
+    "weekday": "Sáb",
+    "max": 22,
+    "min": 14,
+    "description": "Chuvas esparsas",
+    "condition": "rain"
+    },
+    {
+    "date": "22/08",
+    "weekday": "Dom",
+    "max": 13,
+    "min": 10,
+    "description": "Chuvas esparsas",
+    "condition": "rain"
+    },
+    {
+    "date": "23/08",
+    "weekday": "Seg",
+    "max": 23,
+    "min": 9,
+    "description": "Tempo limpo",
+    "condition": "clear_day"
+    },
+    {
+    "date": "24/08",
+    "weekday": "Ter",
+    "max": 31,
+    "min": 15,
+    "description": "Tempo limpo",
+    "condition": "clear_day"
+    }
+    ]
+    },
+    "execution_time": 0,
+    "from_cache": true
+    }

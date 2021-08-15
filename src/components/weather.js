@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react'
-import { View, Text, StyleSheet, RefreshControl , ScrollView} from 'react-native';
+import React, { useState, useEffect } from 'react'
+import { View, Text, StyleSheet, RefreshControl, ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 
@@ -7,12 +7,12 @@ import colors from '../styles/colors';
 import fonts from '../styles/fonts';
 import InfoChip from './chip';
 
-export default function weather({period}) {
+export default function weather({ period, saudacao }) {
 
     const [refreshing, setRefreshing] = useState(false);
 
     const onRefresh = React.useCallback(() => {
-     
+
     }, []);
 
     return (
@@ -20,6 +20,9 @@ export default function weather({period}) {
             <ScrollView style={styles.container} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}>
                 <View style={styles.column}>
                     <View>
+                        <View style={{ marginLeft: 0 }}>
+                            <Text style={styles.subtitle}>{saudacao}</Text>
+                        </View>
                         <View style={{ flexDirection: 'row' }}>
                             <Icon name="location-outline" size={16} color={colors.white} />
                             <Text style={styles.city}>Presidente Prudente - SP</Text>
@@ -59,7 +62,7 @@ export default function weather({period}) {
 
                 </View>
             </ScrollView>
-            
+
         </>
     )
 }
@@ -67,11 +70,18 @@ export default function weather({period}) {
 const styles = StyleSheet.create({
     container: {
         marginHorizontal: 25,
-        marginTop: 40,
+        marginTop: 180,
         borderRadius: 8,
         backgroundColor: 'rgba(141,18,63,0)',
         // elevation: 15,
         padding: 0,
+
+    },
+    subtitle: {
+        color: colors.white,
+        fontSize: 25,
+        fontFamily: fonts.semibold,
+        marginTop: -5,
 
     },
     container2: {
